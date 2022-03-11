@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="signature_report_picking">
+            <field name="name">Signature in Report Stock Picking</field>
+            <field name="inherit_id" ref="stock.report_picking" />
+            <field name="type">qweb</field>
+            <field name="arch" type="xml">
+                <xpath expr="//div/p[2]" position="after">
+                   <t t-if="o.signature_picking">
+                        <div class="text-center">
+                            <span class="text-center" t-field="o.signature_picking" t-options-widget="&quot;image&quot;" style="width:100px"/>
+                        </div>
+                        <p class="text-center">
+                            Signature
+                        </p>
+                    </t>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

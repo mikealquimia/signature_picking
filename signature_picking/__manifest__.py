@@ -14,5 +14,6 @@
         'views/stock_picking_views.xml',
         'reports/report_picking.xml',
     ],
+    'images': ['static/description/banner.png'],
     'depends': ['stock'],
 }

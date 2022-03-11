@@ -7,7 +7,7 @@
       <field name="type">form</field>
       <field name="arch" type="xml">
           <xpath expr="//field[@name='backorder_id']" position="after">
-            <field name="signature_in_picking"/>
+            <field name="signature_in_picking" invisible="1"/>
           </xpath>
           <xpath expr="//page[@name='note']" position="after">
             <page string="Signature" attrs="{'invisible': [('signature_in_picking','=', False)]}">

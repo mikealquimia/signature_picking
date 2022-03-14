@@ -10,6 +10,8 @@
     'support': 'developmentalchemygx@gmail.com',
     'category': 'Warehouse Management',
     'version': '14.0.1',
+    'price': 5.00,
+    'currency': 'USD',
     'data': [
         'views/stock_picking_views.xml',
         'reports/report_picking.xml',

@@ -9,7 +9,7 @@
     'license': 'LGPL-3',
     'support': 'developmentalchemygx@gmail.com',
     'category': 'Warehouse Management',
-    'version': '12.1.1',
+    'version': '12.1.2',
     'price': 5.00,
     'currency': 'USD',
     'data': [

@@ -5,7 +5,7 @@
     'description': """
         Add signature field in Alborán depending on validation in Stock Picking type, which is printed in Stock Picking report
     """,
-    'author': "Gt Alchemy Development",
+    'author': "ACH Alchemical Code",
     'license': 'LGPL-3',
     'support': 'developmentalchemygx@gmail.com',
     'category': 'Warehouse Management',
